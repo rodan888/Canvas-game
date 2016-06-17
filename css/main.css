@@ -1,0 +1,46 @@
+body {
+	font-family: "quicksand-regular-webfont", sans-serif;
+	font-weight: normal;
+	font-size: 14px;
+	min-width: 320px;
+	position: relative;
+	line-height: 1.42857;
+	/*background-image: url(../img/0.1.png);*/
+	background-repeat: repeat-x;
+	/*background-size: 100% 100%;*/
+	/*background-color: #000033;*/
+	-webkit-font-smoothing: antialised; 
+}
+
+body input:focus:required:invalid,
+body textarea:focus:required:invalid {
+	color: red; }
+
+body input:required:valid,
+body textarea:required:valid {
+	color: green; }
+
+.hidden {
+	display: none; }
+button,
+input,
+textarea{
+	outline: none;
+}
+menu,
+ul,
+p,
+h1,
+hr{
+	list-style-type: none;
+	padding: 0;
+	margin: 0;
+}
+a{
+	color: #333333;
+	text-decoration: none;
+}
+canvas{
+	border: 1px solid #ccc;
+	margin: 20px auto;
+}
